@@ -1,38 +1,3 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/37014061/87138394-a3fb5400-c29e-11ea-862b-8fd43a3f44e6.JPG" alt="app-logo"/>
-  <p align="center">ServiceNow Application allow administrators to add social links feature to the user reference fields on form level.</p>
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/37014061/87202918-d4c0a500-c301-11ea-9170-f9ee0a72eeec.jpg" alt="app-form"/>
-</p>
-
-# On User Configurations Table Form: 
-<ul>
-  <li><b>Active:</b> Only active records would be considerable</li>
-  <li><b>Config OK:</b> Shows the app config status *<b>Important:</b> app health indicator (checked == all ok).</li>
-  <li><b>User:</b> Ref field to user oob sys_user table</li>
-  <li><b>Social Link:</b> Valid link corresponded to the social network choice</li>
-  <li><b>Social Network:</b> Custom choice list determine social network icon that would be displayed on target form</li>
-  <li><b>Client Controller:</b> Link to newly created Client script</li>
-  <li><b>Table:</b> Target table</li>
-  <li><b>Target Ref:</b> filtered list contain user-ref fields type from the selected table</li>
-</ul>
-
-# Output: 
- <p align="center">
-  <img src="https://user-images.githubusercontent.com/37014061/87205388-9f1eba80-c307-11ea-8223-645cf985ba1a.jpg" alt="app-result-01"/>
-  <img src="https://user-images.githubusercontent.com/37014061/87206923-e9ee0180-c30a-11ea-9424-c66d371699c7.jpg" alt="app-result-02"/>
- </p>
-
-# Troubleshooting:
- <p align="left">
-   In case of <b>..cross-scope access policy</b> issue, please set the client script table <b>sys_script_client</b> accessibility to <b>All application scope</b> with <b>Can create & Can update</b> privileges as described in this article: https://hi.service-now.com/kb_view.do?sysparm_article=KB0727180
-  </p>
-  
-# Latest update: 
-**10.07.2020 :: Reach-Me-Out-v1.0** 
-
 # Generated files
 This repository contains generated files and a checksum.
 
